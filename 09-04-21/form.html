@@ -1,0 +1,26 @@
+<!--Title:GetElement-->
+<!--Description:Using GetElementById-->
+<!--Author:Mohamed Sameer@1NT18IS091-->
+<!-- Date: 09/4/21 -->
+<!doctype html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form>
+            <input type="text" id="fname" placeholder="Enter First Name">
+            <input type="text" id="lname" placeholder="Enter Last Name">
+            <input type="email" id="emailid" placeholder="Enter email id">
+            <input type="submit" id="submit">
+        </form>
+    </body>
+    <script>
+        document.getElementById("submit").addEventListener("click",function()
+        {
+            alert(document.getElementById("fname").value+document.getElementById("lname").value);
+        })
+            
+        
+    </script>
+</html>
